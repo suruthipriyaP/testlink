@@ -71,7 +71,7 @@ public class LoginTest extends test {
 		catch(Exception e){
 			TestLinkIntegration.updateResults("DP-62",e.getMessage(),TestLinkAPIResults.TEST_FAILED);
 		}
+
+		
 	}
-		//view.EnterTime();
-		// TimesheetPage.saveChanges();
-	}
+}
