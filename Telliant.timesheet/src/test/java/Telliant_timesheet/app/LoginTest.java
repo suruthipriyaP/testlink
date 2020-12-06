@@ -64,7 +64,7 @@ public class LoginTest extends test {
 	public void clearExistingAction() throws Exception {
 
 		timeSheetPage.clearExistingProjects();
-		//timeSheetPage.addProject();
+		timeSheetPage.addProject();
 	try {TestLinkIntegration.updateResults("DP-62",null,TestLinkAPIResults.TEST_PASSED);
 
 	}

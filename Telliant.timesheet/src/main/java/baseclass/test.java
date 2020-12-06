@@ -11,8 +11,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 
-import com.sun.org.apache.xalan.internal.utils.XMLSecurityPropertyManager.Property;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.*;
 

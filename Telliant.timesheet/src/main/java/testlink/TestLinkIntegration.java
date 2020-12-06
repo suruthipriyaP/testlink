@@ -10,7 +10,6 @@ public static void updateResults(String testCase, String exception, String resul
     testlinkAPIClient.reportTestCaseResult(PropertyFile.prop.getProperty("project_Name"),
     		PropertyFile.prop.getProperty("Test_Plan"),PropertyFile.prop.getProperty("Testcase_Name"),     		
     		PropertyFile.prop.getProperty("Build_Name"), exception, result);
-
 }
 
 }
